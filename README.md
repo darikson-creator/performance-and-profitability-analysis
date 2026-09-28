@@ -1,20 +1,86 @@
 # On-Premise Data Warehouse & Power BI Executive Dashboard
 
-## Description
-A comprehensive Business Intelligence solution featuring an on-premise relational Data Warehouse, automated Python batch ingestion, Star Schema dimensional modeling, and interactive reporting deployed to Power BI Service.
+📌 ## Overview
 
-## Key Features
-* **Relational Database Design:** Architectural design of a 4-table schema (`sucursales`, `productos`, `ventas`, `costos`) in MySQL Workbench with foreign key constraints.
-* **Advanced SQL Analysis:** Complex queries for data validation, temporal aggregations, and business logic execution.
-* **Automated Python ETL:** Custom `.py` scripts for automated batch ingestion and synchronization between raw files and the MySQL warehouse.
-* **Dimensional Modeling & DAX:** Star Schema architecture with dynamic Date Dimension and custom DAX metrics (Margins, Total Revenue, YoY/MoM comparisons).
-* **Cloud Deployment:** Interactive dashboard published to Power BI Service for executive decision-making.
+This project presents a comprehensive Business Intelligence solution—from architectural schema design to automated data ingestion and executive reporting. The goal is to build an on-premise relational Data Warehouse in MySQL, automate batch synchronization using custom Python scripts, model a Star Schema with advanced DAX metrics, and deploy an interactive dashboard to Power BI Service for executive decision-making.
 
-## Tech Stack
-* **Database:** MySQL Workbench, SQL
-* **Automation / ETL:** Python (`pymysql`, `pandas`)
-* **Business Intelligence:** Power BI Desktop, Power BI Service, DAX
-* **Data Source:** Excel / CSV
+📁 ## Dataset
+
+Source: Enterprise Operational Files (Excel / CSV)
+
+Format: Flat files (CSV / XLSX)
+
+Description: Contains operational records mapped across a 4-table relational model (sucursales, productos, ventas, costos), capturing transactional sales, product details, operational branch metadata, and associated cost structures.
+
+🛠️ ## Tools & Technologies
+
+Database & Warehousing: MySQL Workbench, SQL
+
+ETL & Automation: Python (pandas, pymysql)
+
+Business Intelligence & Data Modeling: Power BI Desktop, Power BI Service, DAX
+
+Documentation & Presentation: Markdown & Gamma App (Executive Presentation)
+
+🚀 ## Project Steps & Methodology
+
+### 1. Database Architecture & Design (MySQL)
+
+Designed a 4-table relational schema (sucursales, productos, ventas, costos) enforcing foreign key constraints and primary key relationships.
+
+Configured tables to optimize query execution and ensure transactional data integrity.
+
+### 2. Automated Python ETL Ingestion
+
+Developed custom Python scripts (pandas, pymysql) for automated batch processing.
+
+Implemented synchronization scripts to automatically parse raw incoming CSV/Excel files and ingest cleaned records into the MySQL Data Warehouse.
+
+### 3. Advanced SQL Analysis & Data Validation
+
+Executed SQL queries for business logic validation, temporal aggregations, and transactional integrity checks.
+
+Utilized JOINs, subqueries, and window functions to audit operational metrics prior to BI loading.
+
+### 4. Dimensional Modeling & Dashboard Development (Power BI)
+
+Connected Power BI to the MySQL Data Warehouse.
+
+Modeled a Star Schema with a dynamic Date Dimension (DimDate) linked to fact tables.
+
+Authored custom DAX metrics for Key Performance Indicators (Total Revenue, Gross Margins, YoY/MoM comparative analysis).
+
+Designed executive dashboard layouts optimized for performance and visual clarity.
+
+### 5. Deployment & Executive Reporting (Power BI Service & Gamma)
+
+Deployed the final interactive dashboard to Power BI Service for cloud availability and executive sharing.
+
+Summarized high-level insights and strategic recommendations into an executive slide deck using Gamma AI.
+
+📊 ## Dashboard Preview
+
+📈 ### Key Results & Insights
+
+Revenue & Profitability: Evaluated total revenues and gross margins across branches (sucursales) and product lines (productos).
+
+Temporal Trends: Calculated YoY (Year-over-Year) and MoM (Month-over-Month) growth metrics to track business trajectory.
+
+Cost Efficiency: Mapped cost metrics against transactional sales to identify low-margin operational areas.
+
+⚙️ ## How to Run This Project
+
+### Prerequisites:
+
+Ensure you have the following installed on your machine:
+
+Python 3.x
+
+MySQL Server & MySQL Workbench
+
+Power BI Desktop
+
+Access to Power BI Service (optional for deployment)
 
 ---
 
@@ -38,5 +104,10 @@ A comprehensive Business Intelligence solution featuring an on-premise relationa
 ### PBI Report
 ![image alt](https://github.com/darikson-creator/end-to-end-analytics-pbi/blob/efb1685eb0afb3cf2c1ef8246c0f79328e80649c/6.%20Publish%20to%20PBI.png)
 
+🤝 Connect
+Author: Darikson Calle
 
+LinkedIn: https://www.linkedin.com/in/dariksoncalle/
+
+Portfolio/GitHub: https://github.com/darikson-creator?tab=repositories
 
