@@ -1,10 +1,10 @@
 # On-Premise Data Warehouse & Power BI Executive Dashboard
 
-📌 ## Overview
+ ## 📌 Overview
 
 This project presents a comprehensive Business Intelligence solution—from architectural schema design to automated data ingestion and executive reporting. The goal is to build an on-premise relational Data Warehouse in MySQL, automate batch synchronization using custom Python scripts, model a Star Schema with advanced DAX metrics, and deploy an interactive dashboard to Power BI Service for executive decision-making.
 
-📁 ## Dataset
+## 📁 Dataset
 
 Source: Enterprise Operational Files (Excel / CSV)
 
@@ -12,7 +12,7 @@ Format: Flat files (CSV / XLSX)
 
 Description: Contains operational records mapped across a 4-table relational model (sucursales, productos, ventas, costos), capturing transactional sales, product details, operational branch metadata, and associated cost structures.
 
-🛠️ ## Tools & Technologies
+ ## 🛠️ Tools & Technologies
 
 Database & Warehousing: MySQL Workbench, SQL
 
@@ -22,7 +22,7 @@ Business Intelligence & Data Modeling: Power BI Desktop, Power BI Service, DAX
 
 Documentation & Presentation: Markdown & Gamma App (Executive Presentation)
 
-🚀 ## Project Steps & Methodology
+ ## 🚀 Project Steps & Methodology
 
 ### 1. Database Architecture & Design (MySQL)
 
@@ -58,9 +58,9 @@ Deployed the final interactive dashboard to Power BI Service for cloud availabil
 
 Summarized high-level insights and strategic recommendations into an executive slide deck using Gamma AI.
 
-📊 ## Dashboard Preview
+ ## 📊 Dashboard Preview
 
-📈 ### Key Results & Insights
+### 📈  Key Results & Insights
 
 Revenue & Profitability: Evaluated total revenues and gross margins across branches (sucursales) and product lines (productos).
 
@@ -68,7 +68,7 @@ Temporal Trends: Calculated YoY (Year-over-Year) and MoM (Month-over-Month) grow
 
 Cost Efficiency: Mapped cost metrics against transactional sales to identify low-margin operational areas.
 
-⚙️ ## How to Run This Project
+ ## ⚙️ How to Run This Project
 
 ### Prerequisites:
 
