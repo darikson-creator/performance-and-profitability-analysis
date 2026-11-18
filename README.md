@@ -104,10 +104,3 @@ Access to Power BI Service (optional for deployment)
 ### PBI Report
 ![image alt](https://github.com/darikson-creator/end-to-end-analytics-pbi/blob/efb1685eb0afb3cf2c1ef8246c0f79328e80649c/6.%20Publish%20to%20PBI.png)
 
-🤝 Connect
-Author: Darikson Calle
-
-LinkedIn: https://www.linkedin.com/in/dariksoncalle/
-
-Portfolio/GitHub: https://github.com/darikson-creator?tab=repositories
-
